@@ -1,5 +1,5 @@
 import "@/styles/globals.css"
-import ClientLayout from "./ClientLayout"
+import ServerLayout from "./ServerLayout"
 
 export default function RootLayout({
 	children
@@ -9,7 +9,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>
-				<ClientLayout>{children}</ClientLayout>
+				<ServerLayout>{children}</ServerLayout>
 			</body>
 		</html>
 	)
